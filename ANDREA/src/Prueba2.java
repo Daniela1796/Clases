@@ -17,7 +17,7 @@ public class Prueba2 {
 		int j =1;
 		double x =  (Math.PI/2);
 		int signo=-1;
-		double operacion =0.0;
+		double operacion =1.0;
 		
 		while(i<=n) {
 			if(i%2 !=0) {
