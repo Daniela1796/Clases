@@ -31,3 +31,5 @@ public class Vector {
 	}
 
 }
+
+//Poner los ceros en la derecha
