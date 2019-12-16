@@ -30,6 +30,7 @@ public class Correr {
 		System.out.println("n"+repeticiones);
 		}while(repeticiones!=0);
 		imprimirVector(vector);
+		System.out.println("____");
 	}
 	public static void imprimirVector(int arreglo []) {
 		for(int i=0; i<arreglo.length; i++) {
