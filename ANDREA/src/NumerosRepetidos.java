@@ -9,13 +9,14 @@ public class NumerosRepetidos {
 			for(int j = 0; j<repetidos.length;j++) {
 				if(i == vector[j]) {
 					repetidos[i]=repetidos[i]+1;
-					System.out.println(repetidos[i]);
 				}
 			}
 		}
-		System.out.println();
+		
+		imprimirArreglo(repetidos);
+		
 		for(int j=0; j<vector.length; j++) {
-			for(int k=j; k<vector.length; k++) {
+			for(int k=0; k<vector.length; k++) {
 				if(vector[j]==vector[k]) {
 					repetidos[j]++;
 				}
@@ -25,6 +26,12 @@ public class NumerosRepetidos {
 			System.out.println(vector[j]);
 			}
 		}
+	public static void imprimirArreglo(int[] arreglo) {
+		for(int i=0; i<arreglo.length; i++) {
+			System.out.print(arreglo[i]+" ");
+		}
+		System.out.println();
+	}
 	}
 
 
