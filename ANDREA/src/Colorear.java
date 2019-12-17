@@ -29,7 +29,13 @@ public class Colorear {
 				}
 			}
 			// TODO Auto-generated method stub
-
+			for (int row = 0; row < img.getHeight(); row++) {
+				for (int col = 0; col < img.getWidth(); col++) {
+					
+					System.out.print(result[row][col]);
+				}
+				System.out.println();
+			}
 		}
 	}
 
